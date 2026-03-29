@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScriptCraft AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎬 ScriptCraft AI</h1>
+
+<div class="container">
+
+  <h2>Generate Content</h2>
+
+  <input id="topic" placeholder="Enter Topic"><br>
+
+  <select id="type">
+    <option>Instagram Reel</option>
+    <option>YouTube Script</option>
+    <option>Podcast QnA</option>
+  </select><br>
+
+  <select id="tone">
+    <option>Casual</option>
+    <option>Professional</option>
+    <option>Funny</option>
+    <option>Motivational</option>
+  </select><br>
+
+  <button onclick="generate()">Generate</button>
+
+  <h3>Output:</h3>
+  <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
